@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F78C03363A78C6F3D018D55 /* Pods_RedSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF10580741A6D19290658C /* Pods_RedSocial.framework */; };
+		E323E3A5229DFB0A00A7A617 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323E3A4229DFB0A00A7A617 /* ImagenViewController.swift */; };
+		E323E3A7229E05F400A7A617 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323E3A6229E05F400A7A617 /* ElegirUsuarioViewController.swift */; };
+		E377B575229DE5A1001DCCC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E377B574229DE5A1001DCCC3 /* GoogleService-Info.plist */; };
+		E377B578229DECFB001DCCC3 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E377B577229DECFB001DCCC3 /* SnapsViewController.swift */; };
+		E3CDCBCA229DD6FF005ABF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDCBC9229DD6FF005ABF97 /* AppDelegate.swift */; };
+		E3CDCBCC229DD6FF005ABF97 /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDCBCB229DD6FF005ABF97 /* IniciarSesionViewController.swift */; };
+		E3CDCBCF229DD6FF005ABF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CDCBCD229DD6FF005ABF97 /* Main.storyboard */; };
+		E3CDCBD2229DD6FF005ABF97 /* RedSocial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3CDCBD0229DD6FF005ABF97 /* RedSocial.xcdatamodeld */; };
+		E3CDCBD4229DD701005ABF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CDCBD3229DD701005ABF97 /* Assets.xcassets */; };
+		E3CDCBD7229DD701005ABF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CDCBD5229DD701005ABF97 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21DF10580741A6D19290658C /* Pods_RedSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4244AFABA40AEC31B640B541 /* Pods-RedSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSocial.release.xcconfig"; path = "Target Support Files/Pods-RedSocial/Pods-RedSocial.release.xcconfig"; sourceTree = "<group>"; };
+		E323E3A3229DF3CB00A7A617 /* RedSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedSocial.entitlements; sourceTree = "<group>"; };
+		E323E3A4229DFB0A00A7A617 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		E323E3A6229E05F400A7A617 /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
+		E377B574229DE5A1001DCCC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E377B577229DECFB001DCCC3 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		E3CDCBC6229DD6FF005ABF97 /* RedSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CDCBC9229DD6FF005ABF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3CDCBCB229DD6FF005ABF97 /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
+		E3CDCBCE229DD6FF005ABF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3CDCBD1229DD6FF005ABF97 /* RedSocial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedSocial.xcdatamodel; sourceTree = "<group>"; };
+		E3CDCBD3229DD701005ABF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3CDCBD6229DD701005ABF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3CDCBD8229DD701005ABF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28C5CE01FD49C101754AD4B /* Pods-RedSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSocial.debug.xcconfig"; path = "Target Support Files/Pods-RedSocial/Pods-RedSocial.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CDCBC3229DD6FF005ABF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F78C03363A78C6F3D018D55 /* Pods_RedSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9054F94249E5CC3743C80E07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21DF10580741A6D19290658C /* Pods_RedSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CDCBBD229DD6FF005ABF97 = {
+			isa = PBXGroup;
+			children = (
+				E3CDCBC8229DD6FF005ABF97 /* RedSocial */,
+				E3CDCBC7229DD6FF005ABF97 /* Products */,
+				F9B05EB429F37741BB673AF4 /* Pods */,
+				9054F94249E5CC3743C80E07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CDCBC7229DD6FF005ABF97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CDCBC6229DD6FF005ABF97 /* RedSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CDCBC8229DD6FF005ABF97 /* RedSocial */ = {
+			isa = PBXGroup;
+			children = (
+				E323E3A3229DF3CB00A7A617 /* RedSocial.entitlements */,
+				E377B574229DE5A1001DCCC3 /* GoogleService-Info.plist */,
+				E3CDCBC9229DD6FF005ABF97 /* AppDelegate.swift */,
+				E3CDCBCB229DD6FF005ABF97 /* IniciarSesionViewController.swift */,
+				E3CDCBCD229DD6FF005ABF97 /* Main.storyboard */,
+				E323E3A6229E05F400A7A617 /* ElegirUsuarioViewController.swift */,
+				E323E3A4229DFB0A00A7A617 /* ImagenViewController.swift */,
+				E3CDCBD3229DD701005ABF97 /* Assets.xcassets */,
+				E3CDCBD5229DD701005ABF97 /* LaunchScreen.storyboard */,
+				E3CDCBD8229DD701005ABF97 /* Info.plist */,
+				E3CDCBD0229DD6FF005ABF97 /* RedSocial.xcdatamodeld */,
+				E377B577229DECFB001DCCC3 /* SnapsViewController.swift */,
+			);
+			path = RedSocial;
+			sourceTree = "<group>";
+		};
+		F9B05EB429F37741BB673AF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F28C5CE01FD49C101754AD4B /* Pods-RedSocial.debug.xcconfig */,
+				4244AFABA40AEC31B640B541 /* Pods-RedSocial.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CDCBC5229DD6FF005ABF97 /* RedSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CDCBDB229DD701005ABF97 /* Build configuration list for PBXNativeTarget "RedSocial" */;
+			buildPhases = (
+				375673FA2A29311DF96789CD /* [CP] Check Pods Manifest.lock */,
+				E3CDCBC2229DD6FF005ABF97 /* Sources */,
+				E3CDCBC3229DD6FF005ABF97 /* Frameworks */,
+				E3CDCBC4229DD6FF005ABF97 /* Resources */,
+				545CC85AC735E60944B30AE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedSocial;
+			productName = RedSocial;
+			productReference = E3CDCBC6229DD6FF005ABF97 /* RedSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CDCBBE229DD6FF005ABF97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tecsup;
+				TargetAttributes = {
+					E3CDCBC5229DD6FF005ABF97 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E3CDCBC1229DD6FF005ABF97 /* Build configuration list for PBXProject "RedSocial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CDCBBD229DD6FF005ABF97;
+			productRefGroup = E3CDCBC7229DD6FF005ABF97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CDCBC5229DD6FF005ABF97 /* RedSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CDCBC4229DD6FF005ABF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CDCBD7229DD701005ABF97 /* LaunchScreen.storyboard in Resources */,
+				E377B575229DE5A1001DCCC3 /* GoogleService-Info.plist in Resources */,
+				E3CDCBD4229DD701005ABF97 /* Assets.xcassets in Resources */,
+				E3CDCBCF229DD6FF005ABF97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		375673FA2A29311DF96789CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		545CC85AC735E60944B30AE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedSocial/Pods-RedSocial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedSocial/Pods-RedSocial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedSocial/Pods-RedSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CDCBC2229DD6FF005ABF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E377B578229DECFB001DCCC3 /* SnapsViewController.swift in Sources */,
+				E323E3A5229DFB0A00A7A617 /* ImagenViewController.swift in Sources */,
+				E3CDCBD2229DD6FF005ABF97 /* RedSocial.xcdatamodeld in Sources */,
+				E3CDCBCC229DD6FF005ABF97 /* IniciarSesionViewController.swift in Sources */,
+				E3CDCBCA229DD6FF005ABF97 /* AppDelegate.swift in Sources */,
+				E323E3A7229E05F400A7A617 /* ElegirUsuarioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3CDCBCD229DD6FF005ABF97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CDCBCE229DD6FF005ABF97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3CDCBD5229DD701005ABF97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CDCBD6229DD701005ABF97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3CDCBD9229DD701005ABF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3CDCBDA229DD701005ABF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CDCBDC229DD701005ABF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28C5CE01FD49C101754AD4B /* Pods-RedSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedSocial/RedSocial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VACTTZKVP5;
+				INFOPLIST_FILE = RedSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrivera.RedSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3CDCBDD229DD701005ABF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4244AFABA40AEC31B640B541 /* Pods-RedSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RedSocial/RedSocial.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VACTTZKVP5;
+				INFOPLIST_FILE = RedSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrivera.RedSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CDCBC1229DD6FF005ABF97 /* Build configuration list for PBXProject "RedSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CDCBD9229DD701005ABF97 /* Debug */,
+				E3CDCBDA229DD701005ABF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CDCBDB229DD701005ABF97 /* Build configuration list for PBXNativeTarget "RedSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CDCBDC229DD701005ABF97 /* Debug */,
+				E3CDCBDD229DD701005ABF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3CDCBD0229DD6FF005ABF97 /* RedSocial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3CDCBD1229DD6FF005ABF97 /* RedSocial.xcdatamodel */,
+			);
+			currentVersion = E3CDCBD1229DD6FF005ABF97 /* RedSocial.xcdatamodel */;
+			path = RedSocial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3CDCBBE229DD6FF005ABF97 /* Project object */;
+}

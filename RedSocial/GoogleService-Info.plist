@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>421541996383-f2d582udt6dn9r59jh5qh9lfivf07sd8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.421541996383-f2d582udt6dn9r59jh5qh9lfivf07sd8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDT10_IzmC5KojPosZJnW0MnMqBnQTEOiM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>421541996383</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jrivera.RedSocial</string>
+	<key>PROJECT_ID</key>
+	<string>redsocial-8fd41</string>
+	<key>STORAGE_BUCKET</key>
+	<string>redsocial-8fd41.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:421541996383:ios:a18a2d6dad1c5ee7</string>
+	<key>DATABASE_URL</key>
+	<string>https://redsocial-8fd41.firebaseio.com</string>
+</dict>
+</plist>
